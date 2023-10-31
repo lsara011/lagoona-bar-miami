@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bauhaus 93", sans-serif;
+    background-color: black;
+}
+
+.title h1{
+    display: flex;
+    transition: 0.35s ease;
+    color: yellow;
+    font-family: "Cooper Black", sans-serif;
+    margin-top: 15px;
+}
+.title :hover{
+    color: white;
+}
+
+.navBar{
+    padding-top: 15px;
+    display: flex;
+    margin: 0 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navBar h2{
+    transition: 0.35s ease;
+    color: yellow;
+    cursor: pointer;
+}
+
+.navBar :hover{
+    color: red;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 100px;
+}
+
+.image{
+    height: 300px;
+    width: 100%;
+    background-image: url("lit-loung-anguilla-caribbean-1080x675.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Intro-paragraph{
+    color: whitesmoke;
+    font-family: Consolas, sans-serif;
+    line-height: 35px;
+    text-align: center;
+}
+
+.featuredCocktails h2{
+    color: white;
+    text-align: center;
+    font-family: Kenia, sans-serif;
+    padding: 15px;
+    color: yellow;
+}
+
+.cocktail-section{
+    padding-top: 10px;
+    margin: 0 15px;
+    color: black;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.cocktail-box{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+}
+.cocktail-box h4{
+    font-family: Kenia, sans-serif;
+    color: yellow;
+}
+.cocktail-box p{
+    color: white;
+    font-family: "Franklin Gothic Demi";
+    margin-top: 10px;
+}
+.book-table{
+    height: 200px;
+    padding: 15px;
+    color: yellow;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.book-box button{
+    background-color: yellow;
+    padding: 20px 55px;
+    border: none;
+    transition: ease .25s;
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: 20px;
+}
+
+.book-box button:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.about-company{
+    color: white;
+    margin: 0 75px;
+    line-height: 35px;
+    text-align: center;
+    font-family: "Cooper Black";
+}
